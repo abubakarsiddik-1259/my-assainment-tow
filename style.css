@@ -310,3 +310,124 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+/* Plants Lover Section ,.....................*/
+
+
+
+
+
+.heading-c{
+    font-size: 50px;
+    font-weight: 700px;
+}
+.paragraph{
+    font-size: 25px;
+    color: #00000080;
+}
+
+.list-g{
+    gap: 60px;
+
+}
+.list-h{
+    padding-top: 20px;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+}
+.section-h{
+    display: flex;
+    margin: 100px auto;
+}
+
+.badge{
+    width: 200px;
+    height: 255px;
+    position: absolute;
+    top: -100px;
+    right: -80px;
+    filter: drop-shadow(-4px 10px 4px rgb(0,0,0,0.25));
+
+}
+
+.img-contain{
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .section-h{
+        flex-direction: column;
+        gap: 18px;
+    }
+    .story{
+        width: 100%;
+    }
+    .badge{
+        display: none;
+    }
+    .heading-c{
+        font-size: 24px;
+        margin: 0px;
+    }
+    br{
+        display: none;
+    }
+    .paragraph{
+        font-size:14px ;
+    }
+    .list-h{
+        margin-top: 16px;
+    }
+}
+
+
+
