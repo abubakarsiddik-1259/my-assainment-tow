@@ -431,3 +431,126 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Challenges Part............. */
+
+    .card-container {
+      display: flex;
+      gap: 16px;
+      max-width: 1000px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+   
+    }
+    .title-c{
+      text-align: center;
+      margin: 50px auto;
+      
+     
+    }
+    .cart-image-b{
+      background-image: url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    }
+
+    .left-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      
+    }
+
+    .right-card {
+      flex: 2 1 600px;
+    }
+
+    .card {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      height: 130px;
+      color: #fff;
+      display: flex;
+      align-items: flex-end;
+      padding: 16px;
+    }
+
+    .card.large {
+      height: 276px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .card h3, .card h2 {
+      margin: 0;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .card.large h2 {
+      font-size: 26px;
+    }
+
+    .card p {
+      margin: 6px 0 0;
+      font-size: 14px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .card-container {
+        flex-direction: column;
+      }
+
+      .left-cards, .right-card {
+        flex: 1 1 100%;
+      }
+
+      .card.large {
+        height: 200px;
+      }
+    }
+
+
+
+
